@@ -1,0 +1,24 @@
+{
+  "name": "gicons",
+  "version": "1.0.0",
+  "description": "Icons of gloal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerry5379/gicons.git"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "react"
+  ],
+  "author": "pritesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerry5379/gicons/issues"
+  },
+  "homepage": "https://github.com/jerry5379/gicons#readme"
+}
