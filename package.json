@@ -4,7 +4,8 @@
   "description": "Icons of gloal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d dist",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/jerry5379/gicons/issues"
   },
-  "homepage": "https://github.com/jerry5379/gicons#readme"
+  "homepage": "https://github.com/jerry5379/gicons#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3"
+  }
 }
