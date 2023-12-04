@@ -1,1 +1,1 @@
-export { default as Search } from './icons';
+export { Search, Icon1, profileIcon, wishListIcon, cartIcon } from './icons';
